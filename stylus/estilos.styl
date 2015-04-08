@@ -1,9 +1,48 @@
 @import "normalize.styl"
 
 rojo= #FA0006
-gris oscuro=#404040
-gris claro=#808080
+gris_oscuro=#404040
+gris_claro=#808080
 naranja=#fc6d6d
 
 body
+	font-size 16px
 	font-family 'Lato', sans-serif
+	margin 0
+a 
+	text-decoration none
+	color gris_oscuro
+	&:hover
+		color naranja
+li
+	list-style none
+.izquieda
+	float left
+.derecha
+	float right
+.centrado-flex
+	display flex
+	flex-flow row wrap
+	justify-content space-between
+
+.encabezado
+	padding 0 .5em
+	.menu
+		align-self flex-end
+		.menu-lista
+			height 2rem
+			width 26rem
+			.elementos
+				display block
+	.imagen
+		margin 0
+.contenido
+	background-image url("../img/fondo.jpg")
+	.contenido-inicial
+		background-color rgba(black,.3)
+		width 100%
+		min-height 95vh
+	.titulo-inicial
+		font-size 3rem
+		color white
+		text-transform uppercase
