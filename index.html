@@ -8,9 +8,10 @@
 	<!-- llamado de hojas de estilos -->
 	<link rel="stylesheet" href="css/estilos.css">
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 </head>
-<body>
-	<header class="encabezado centrado-flex">
+<body class="fondo-estatico">
+	<header class="encabezado centrado-flex fondo-blanco">
 		<figure class="imagen">
 			<img class="logotipo" width="180" src="img/logo.jpg" alt="Logotipo de Tradelink">
 		</figure>
@@ -26,11 +27,11 @@
 	</header>
 	<section class="contenido">
 		<!-- seccion de contenido incial -->
-		<div class="contenido-inicial">
+		<div class="contenido-inicial fondo-transparente">
 			<h2 class="titulo-inicial">¡ Comercio Exterior ! .... Lo Hacemos Fácil.</h2>
 		</div>
 		<!-- contenido de servicios -->
-		<section class="contenido-servicios">
+		<section class="contenido-servicios fondo-blanco">
 			<h4 class="titulo-servicios">Servicios CE</h4>
 			<p>El comercio exterior nunca fue tan fácil</p>
 			<article class="servicios">
@@ -51,7 +52,7 @@
 			</article>
 		</section>
 		<!-- contenido de quienes somos -->
-		<section class="contenido-quienessomos">
+		<section class="contenido-quienessomos fondo-oscuro">
 			<h4 class="titulo-quienessomos">
 				¿Quienes Somos?
 			</h4>
@@ -80,16 +81,16 @@
 			</article>
 		</section>
 		<!-- contenido de los tips -->
-		<section>
+		<section class="contenido-tips fondo-blanco">
 			<h3>Tips de comercio</h3>
 			<p>El conocimiento es poder</p>
 		</section>
 		<!-- contenido de noticias -->
-		<section>
+		<section class="contenido-noticias fondo-oscuro">
 			<h3>Noticias Tradelink</h3>
 		</section>
 		<!-- formulario para contectanos -->
-		<form action="">
+		<form class="contactanos fondo-transparente" action="">
 			<input type="text" placeholder="Nombre">
 			<input type="email" placeholder="Correo Eletronico">
 			<input type="text" placeholder="Asunto">
@@ -97,7 +98,7 @@
 			<input type="submit">
 		</form>
 	</section>
-	<footer class="pie de pagina">
+	<footer class="pie-pagina fondo-oscuro">
 		<address>
 			calle tamarindos no. 2
 			segundo sector de fidelac
