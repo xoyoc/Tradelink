@@ -3,6 +3,7 @@
 rojo= #FA0006
 gris_oscuro=#404040
 gris_claro=#808080
+oscuro=#272727
 naranja=#fc6d6d
 
 body
@@ -16,6 +17,17 @@ a
 		color naranja
 li
 	list-style none
+.fondo-estatico
+	background-image url("../img/fondo.jpg")
+	background-repeat repeat
+	background-position top center !important
+	background-attachment fixed !important
+.fondo-blanco
+	background-color white
+.fondo-oscuro
+	background-color oscuro
+.fondo-transparente
+	background-color rgba(black,.5)
 .izquieda
 	float left
 .derecha
@@ -37,12 +49,22 @@ li
 	.imagen
 		margin 0
 .contenido
-	background-image url("../img/fondo.jpg")
 	.contenido-inicial
-		background-color rgba(black,.3)
-		width 100%
 		min-height 95vh
+		width 100%
 	.titulo-inicial
+		font-family 'Montserrat', sans-serif 
+		font-weight: none
 		font-size 3rem
 		color white
 		text-transform uppercase
+	.contenido-servicios
+		min-height 95vh
+	.contenido-quienessomos
+		min-height 95vh
+	.contenido-tips
+		min-height 45vh
+	.contenido-noticias
+		min-height 45vh
+	.contactanos
+		min-height 35vh
