@@ -1,4 +1,3 @@
-
 @import "normalize.styl"
 
 rojo= #FA0006
@@ -18,6 +17,8 @@ a
 		color naranja
 li
 	list-style none
+h1, h2, h3, h4, h5, h6
+	margin 0
 .fondo-estatico
 	background-image url("../img/fondo.jpg")
 	background-repeat repeat
@@ -27,6 +28,7 @@ li
 	background-color white
 .fondo-oscuro
 	background-color oscuro
+	color gris_claro
 .fondo-transparente
 	background-color rgba(black,.5)
 .izquieda
@@ -53,12 +55,15 @@ li
 	.contenido-inicial
 		min-height 95vh
 		width 100%
+		justify-content center
 	.titulo-inicial
+		align-self center
 		font-family 'Montserrat', sans-serif 
-		font-weight: none
+		font-weight: normal
 		font-size 3rem
 		color white
 		text-transform uppercase
+		width 51%
 	.contenido-servicios
 		min-height 95vh
 	.contenido-quienessomos
@@ -69,4 +74,3 @@ li
 		min-height 45vh
 	.contactanos
 		min-height 35vh
-
