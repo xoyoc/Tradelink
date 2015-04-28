@@ -1,5 +1,6 @@
 
 @import "normalize.styl"
+@import "skeleton.styl"
 
 rojo= #FA0006
 gris_oscuro=#404040
@@ -20,6 +21,8 @@ li
 	list-style none
 h1, h2, h3, h4, h5, h6
 	margin 0
+input, textarea
+	width 100%
 .fondo-estatico
 	background-image url("../img/fondo.jpg")
 	background-repeat repeat
@@ -40,6 +43,11 @@ h1, h2, h3, h4, h5, h6
 	display flex
 	flex-flow row wrap
 	justify-content space-between
+.segunda-seccion
+	text-align center
+	font-size 4rem
+.columna-izquierda
+	text-align right
 
 .encabezado
 	padding 0 .5em
@@ -47,28 +55,28 @@ h1, h2, h3, h4, h5, h6
 		align-self flex-end
 		.menu-lista
 			height 2rem
-			width 26rem
+			width 45rem
 			.elementos
 				display block
 	.imagen
 		margin 0
 .contenido
 	.contenido-inicial
-		min-height 95vh
+		min-height 100vh
 		width 100%
 		justify-content center
 	.titulo-inicial
 		align-self center
 		font-family 'Montserrat', sans-serif 
 		font-weight: normal
-		font-size 3rem
+		font-size 5rem
 		color white
 		text-transform uppercase
 		width 51%
 	.contenido-servicios
-		min-height 95vh
+		min-height 100vh
 	.contenido-quienessomos
-		min-height 95vh
+		min-height 100vh
 	.contenido-tips
 		min-height 45vh
 	.contenido-noticias
