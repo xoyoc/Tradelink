@@ -1,6 +1,6 @@
-
 @import "normalize.styl"
 @import "skeleton.styl"
+@import "nib"
 
 rojo= #FA0006
 gris_oscuro=#404040
@@ -23,6 +23,9 @@ h1, h2, h3, h4, h5, h6
 	margin 0
 input, textarea
 	width 100%
+	margin .5em 0
+form
+	margin-bottom 0
 .fondo-estatico
 	background-image url("../img/fondo.jpg")
 	background-repeat repeat
@@ -46,9 +49,11 @@ input, textarea
 .segunda-seccion
 	text-align center
 	font-size 4rem
+.imagen--segunda-seccion
+	width 100%
+	border-radius 60px
 .columna-izquierda
 	text-align right
-
 .encabezado
 	padding 0 .5em
 	.menu
@@ -83,3 +88,4 @@ input, textarea
 		min-height 45vh
 	.contactanos
 		min-height 35vh
+		padding 1em
